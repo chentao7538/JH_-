@@ -1,4 +1,3 @@
-.page
 * {
     margin: 0;
     padding: 0;
@@ -21,8 +20,8 @@ html, body {
 .header {
     width: 100%;
     height: 48px;
-    background-color: #ffffff;
-    box-shadow: 0 5px 5px #cccccc;
+    background-color: #fff;
+    /*box-shadow: 0 5px 5px #ccc;*/
 
     /*定位*/
     position: fixed;
@@ -31,26 +30,27 @@ html, body {
     z-index: 999;
 }
 
-.header .header_in {
+.header .header-in {
     width: 1244px;
     height: 100%;
+    /*background-color: red;*/
     margin: 0 auto;
 }
 
-.header .header_in .header_left {
+.header .header-in .header-left {
     width: 435px;
     height: 28px;
-/ / background-color: red;
+    /*background-color: red;*/
     float: left;
     margin-top: 10px;
 }
 
-.header .header_in .header_left li {
+.header .header-in .header-left li {
     float: left;
     margin-right: 20px;
 }
 
-.header .header_in .header_left li a {
+.header .header-in .header-left li a {
     line-height: 28px;
     text-align: center;
     display: inline-block;
@@ -59,16 +59,16 @@ html, body {
     font-size: 14px;
 }
 
-.header .header_in .header_left li a:hover {
+.header .header-in .header-left li a:hover {
     color: #c90000;
 }
 
-.header .header_in .header_left li:nth-child(7) a {
+.header .header-in .header-left li:nth-child(7) a {
     font-size: 40px;
     line-height: 2px;
 }
 
-.header .header_in .header_left .new {
+.header .header-in .header-left .new {
     width: 30px;
     height: 14px;
     background-color: #f4a523;
@@ -76,11 +76,11 @@ html, body {
     line-height: 14px;
     margin-top: 6px;
     margin-left: 2px;
-    color: #ffffff;
+    color: #fff;
     font-size: 12px;
 }
 
-.header .header_in .header_left .logo-pic a {
+.header .header-in .header-left .logo-pic a {
     width: 80px;
     height: 28px;
     display: inline-block;
@@ -88,33 +88,33 @@ html, body {
     background-size: cover;
 }
 
-.header .header_in .header_center {
+.header .header-in .header-center {
     width: 675px;
     height: 34px;
-    background-color: #cccccc;
+    background-color: #ccc;
     float: left;
     margin-top: 7px;
 }
 
-.header .header_in .header_center input {
+.header .header-in .header-center input {
     width: 100%;
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
     outline: none;
     background-color: #fafafa;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
     font-size: 14px;
     resize: none;
 }
 
-.header .header_in .header_right {
+.header .header-in .header-right {
     width: 116px;
     height: 48px;
     float: right;
 }
 
-.header .header_in .header_right a {
+.header .header-in .header-right a {
     float: right;
     width: 52px;
     height: 32px;
@@ -129,18 +129,165 @@ html, body {
     border-radius: 2px;
 }
 
-.header .header_in .header_right a:nth-child(1) {
+.header .header-in .header-right a:nth-child(1) {
     float: left;
     background: linear-gradient(#E53E49, #D43636);
     color: #fff;
     border: 1px solid #c90000;
 }
 
-.header .header_in .header_right a:nth-child(1):hover {
+.header .header-in .header-right a:nth-child(1):hover {
     background-color: #E53E49;
 }
-
-h1 {
-    font-size: 50px;
-}
 /*头部样式*/
+
+/*轮播广告样式*/
+.slider-banner {
+    width: 100%;
+    height: 60px;
+    background-color: green;
+}
+
+.slider-banner ul {
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.slider-banner ul li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.slider-banner ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-banner ul li:nth-child(1) a {
+    background: url("../images/top_banner01.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(2) a {
+    background: url("../images/top_banner02.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(3) a {
+    background: url("../images/top_banner03.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(4) a {
+    background: url("../images/top_banner04.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(5) a {
+    background: url("../images/top_banner05.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(1) a {
+    background: url("../images/top_banner01.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(6) a {
+    background: url("../images/top_banner06.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(7) a {
+    background: url("../images/top_banner07.jpg") center center;
+}
+
+/*轮播广告样式*/
+
+/*快速登录样式*/
+.quick-login {
+    width: 100%;
+    height: 120px;
+    background: url("../images/login_header_blurbg.jpg") center center;
+}
+
+.quick-login .quick-login-in {
+    width: 1244px;
+    height: 100%;
+    /*background-color: red;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 18px;
+}
+
+.quick-login .quick-login-in .intro {
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quick-login .quick-login-in .intro .title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.quick-login .quick-login-in .login_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-login .quick-login-in .login_icon li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.quick-login .quick-login-in .login_icon li a {
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.quick-login .quick-login-in .login_icon li:nth-child(1) a {
+    background: url("../images/icon.jpg") 0 0;
+}
+
+.quick-login .quick-login-in .login_icon li:nth-child(2) a {
+    background: url("../images/icon.jpg") 60px 0;
+}
+
+.quick-login .quick-login-in .login_icon li:nth-child(3) a {
+    background: url("../images/icon.jpg") 140px 0;
+}
+
+.quick-login .quick-login-in .login_icon li:nth-child(4) a {
+    background: url("../images/icon.jpg") 220px 0;
+}
+
+.quick-login .quick-login-in .login_icon .tip_text {
+    position: relative;
+}
+
+.quick-login .quick-login-in .login_icon .tip_text .line_left {
+    border-top: 1px solid #fff;
+    display: block;
+    position: absolute;
+    width: 40px;
+    top: 10px;
+    left: -45px;
+}
+
+.quick-login .quick-login-in .login_icon .tip_text .line_right {
+    border-top: 1px solid #fff;
+    display: block;
+    position: absolute;
+    width: 40px;
+    top: 10px;
+    right: -45px;
+}
