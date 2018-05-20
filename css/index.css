@@ -290,7 +290,6 @@ html, body {
     top: 10px;
     right: -45px;
 }
-
 /*快速登录样式*/
 
 /*吸顶效果样式*/
@@ -372,7 +371,6 @@ html, body {
     background: url("../images/icon2.png") -126px 0;
     background-size: cover;
 }
-
 /*吸顶效果样式*/
 
 /*类型标题样式*/
@@ -408,7 +406,6 @@ html, body {
 .type-title .type-title-in .line-right {
     right: 15px;
 }
-
 /*类型标题样式*/
 
 /*选项卡样式*/
@@ -507,7 +504,6 @@ html, body {
 .dom_top li:nth-child(5) a {
     background: url("../images/top05.jpg");
 }
-
 /*选项卡样式*/
 
 /*右下角的样式*/
@@ -718,7 +714,6 @@ html, body {
     letter-spacing: -999px;
 
 }
-
 .center_box .buttons a {
     background-image: url('../images/login_icons_tiny.svg');
     width: 48px;
@@ -807,7 +802,6 @@ html, body {
 .red-link {
     color: #9A0000;
 }
-
 .center_box a {
     cursor: pointer;
 }
