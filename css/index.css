@@ -516,7 +516,7 @@ html, body {
 }
 
 .dom-pull {
-    width: 1240px;
+    width: 100%;
     padding: 20px 0;
     position: relative;
     margin: 0 auto;
