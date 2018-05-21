@@ -143,9 +143,9 @@ html, body {
 
 /*轮播广告样式*/
 .slider-banner {
-    width: 100%;
+    width: 1244px;
     height: 60px;
-    background-color: green;
+    /*background-color: green;*/
 }
 
 .slider-banner ul {
